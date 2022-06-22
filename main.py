@@ -2,6 +2,7 @@ from pathlib import Path
 from datetime import datetime as dt
 
 root_dir=Path('files')
+# glob(""**/*"") to recursively retrieve paths in a dir tree
 file_paths=root_dir.glob("**/*")
 
 for path in file_paths:
